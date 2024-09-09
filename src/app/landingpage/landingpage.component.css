@@ -95,6 +95,13 @@ img:hover{
     display: none;
 }
 .readmore{
+   background-color: black;
+    color: aliceblue;
+}
+.text.show-more .more{
+    display: inline;
+}
+.text.show-more .dots{
     
 }
     
