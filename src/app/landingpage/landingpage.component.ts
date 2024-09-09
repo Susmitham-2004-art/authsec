@@ -6,5 +6,8 @@ import { Component } from '@angular/core';
   styleUrl: './landingpage.component.css'
 })
 export class LandingpageComponent {
-
+  isActive: boolean = true;
+  toggle() {
+    this.isActive = !this.isActive;
+  }
 }
