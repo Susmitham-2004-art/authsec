@@ -62,7 +62,7 @@
   .btnLogin-popup:hover {
     background-color: #0056b3; /* Darker background on hover */
   }
-  .img{
-    height: 400px;
+  div.adc img{
+    height: 600px;
     width: 400px;
   }
