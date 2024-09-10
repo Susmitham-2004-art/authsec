@@ -1,13 +1,24 @@
+
 import { Component } from '@angular/core';
+import { Router, ActivatedRoute } from '@angular/router';
 
 @Component({
   selector: 'app-landingpage',
   templateUrl: './landingpage.component.html',
-  styleUrl: './landingpage.component.css'
+  styleUrls: ['./landingpage.component.css']
 })
 export class LandingpageComponent {
-  isActive: boolean = true;
-  toggle() {
-    this.isActive = !this.isActive;
+
+  constructor(private router: Router, private route: ActivatedRoute) { }
+
+  scrollToAbout() {
+    // Use the router to navigate to the same route with a fragment
+    this.router.navigate([], {
+      relativeTo: this.route,
+      fragment: 'about'
+    }).then(() => {
+      // Optional: Additional logic after navigation
+    });
   }
 }
+
