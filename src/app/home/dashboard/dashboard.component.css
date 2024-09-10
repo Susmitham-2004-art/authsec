@@ -1,3 +1,11 @@
+*{
+  padding: 0%;
+  margin: 0%;
+}
+.header {
+  background: linear-gradient(to right, rgb(17, 163, 17), rgb(59, 228, 59));
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1);
+}
 .header-container {
     text-align: center;
 }
@@ -49,18 +57,29 @@
   }
   
   .btnLogin-popup {
-    background-color: #007bff; /* Button background color */
-    color: #fff; /* Button text color */
+    background-color: #4CAF50; /* Green */
+    color: #ffffff; /* White */
+    padding: 20px 20px;
     border: none;
-    padding: 10px 20px; /* Padding inside the button */
-    font-size: 1em; /* Button text size */
-    cursor: pointer; /* Pointer cursor on hover */
-    border-radius: 5px; /* Rounded corners for the button */
-    margin-left: 20px; /* Space to the left of the button */
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+    
   }
   
   .btnLogin-popup:hover {
-    background-color: #0056b3; /* Darker background on hover */
+    background-color:white; /* Darker green */
+    color:black;
+  }
+  
+  .btnLogin-popup:active {
+    background-color: #3e8e41; /* Darker green */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .btnLogin-popup:focus {
+    outline: none;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
   }
   div.adc img{
     height: 600px;
