@@ -1,0 +1,87 @@
+*{
+  padding: 0%;
+  margin: 0%;
+}
+.header {
+  background: linear-gradient(to right, rgb(17, 163, 17), rgb(59, 228, 59));
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1);
+}
+.header-container {
+    text-align: center;
+}
+
+.header-container h2,
+.header-container h4,
+.header-container h1 {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.header-container h2 {
+    font-size: 2em; /* Adjust font size as needed */
+    line-height: 1.1; /* Adjust line height if needed */
+}
+
+.header-container h4 {
+    font-size: 1.5em; /* Adjust font size as needed */
+    line-height: 1.1; /* Adjust line height if needed */
+}
+
+.header-container h1 {
+    font-size: 3em; /* Adjust font size as needed */
+    line-height: 1.1; /* Adjust line height if needed */
+}
+
+.header-container h2, .header-container h4, .header-container h1 {
+    display: inline-block;
+}
+
+  
+  .navigation {
+    display: flex;
+    justify-content: center; /* Center-aligns the navigation items horizontally */
+    gap: 15px; /* Space between the navigation links */
+    margin-top: 10px; /* Space above the navigation */
+  }
+  
+  .navigation a {
+    text-decoration: none;
+    color: #007bff; /* Link color */
+    font-size: 1em; /* Adjust font size as needed */
+  }
+  
+  .navigation a:hover {
+    text-decoration: underline; /* Underline on hover for better UX */
+    cursor: pointer;
+  }
+  
+  .btnLogin-popup {
+    background-color: #4CAF50; /* Green */
+    color: #ffffff; /* White */
+    padding: 20px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+    
+  }
+  
+  .btnLogin-popup:hover {
+    background-color:white; /* Darker green */
+    color:black;
+  }
+  
+  .btnLogin-popup:active {
+    background-color: #3e8e41; /* Darker green */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .btnLogin-popup:focus {
+    outline: none;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+  div.adc img{
+    height: 600px;
+    width: 400px;
+  }
