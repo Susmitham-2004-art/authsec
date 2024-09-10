@@ -203,4 +203,48 @@ h3{
     color: black;
     text-decoration: underline;
   }
+   .ee{
+    transform: translate(800px,-438px); 
   
+   }
+   .ZZ{
+      margin: 15px;
+    color: black;
+   }
+   .navigation a:hover {
+    text-decoration: underline; /* Underline on hover for better UX */
+  }
+  html {
+    scroll-behavior: smooth;
+}
+.cover{
+    width: 150%;
+    height: 500px;
+    margin-top: -20px;
+    display: flex;
+
+}
+.box{
+    /* margin: 10px; */
+    width: 450px;
+    height:400px;
+   transform: translate(-300px,-300px);
+   
+    box-shadow:-5px 0 20px; 
+    border-radius: 20px;
+}
+.xyz{
+    padding-top: 20px;
+    text-align: center;
+}
+.aaa{
+    
+    padding: 15px;
+    text-align: center;
+}
+.container{
+    transform: translate(0px,-200px);
+}
+h5{
+    text-align:left;
+}
