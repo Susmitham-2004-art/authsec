@@ -98,3 +98,7 @@
   margin: 10px;
   transform: translate(100px,0%);
 }
+a{
+  text-align: center;
+  transform: translate(200px,0px);
+}
