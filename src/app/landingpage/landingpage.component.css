@@ -44,7 +44,7 @@
     color: whitesmoke;
     transform: translate(140px, 0px);
 }
-/* .slider{
+.slider{
     height: 250px;
     margin:auto;
     position: relative;
@@ -56,7 +56,7 @@
 .slide-track{
     display: flex;
     width:calc(250px *18);
-    animation: scroll 40% linear infinite;
+    animation: scroll 40s linear infinite;
 }
 .slide-track:hover{
     animation-play-state: paused;
@@ -79,17 +79,19 @@
 }
 img{
     width:100%;
+    transition: transform 1s;
+    height: 100%;
 }
 img:hover{
-    transform: translate(20px);
+    transform:translateZ(20px);
 }
 .slider::before, .slider::after{
     background: linear-gradient(to right,rgba(255,255,255,1) 0%, rgba(255,255,255,0) 100%);
-    content: " ";
+    content: '';
     height: 100%;
     position: absolute;
     width: 15%;
-    z-index:2
+    z-index:2;
 }
 .slider::before{
     left:0;
@@ -99,7 +101,7 @@ img:hover{
     right: 0;
     top: 0;
     transform: rotateZ(180deg);
-} */
+}
 
 
 .slider-container{
@@ -236,15 +238,76 @@ h3{
 .xyz{
     padding-top: 20px;
     text-align: center;
+    position: relative;
 }
 .aaa{
     
     padding: 15px;
     text-align: center;
+    position: relative;
+    
 }
 .container{
     transform: translate(0px,-200px);
 }
 h5{
     text-align:left;
+}
+.background::before{
+    content: '';
+    background-image: url('../../assets/images/consulaa.png.png');
+    opacity: 0.35;
+    position: absolute;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    
+}
+.back::before{
+    content: '';
+    background-image: url('../../assets/images/well1.png');
+    opacity: 0.35;
+    position: absolute;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+} 
+.backgro::before
+{
+    content: '';
+    background-image: url('../../assets/images/produ.png');
+    opacity: 0.35;
+    position: absolute;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
+.backgroun::before{
+    content: '';
+    background-image: url('../../assets/images/h1.png');
+    opacity: 0.35;
+    position: absolute;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+
+} 
+.swe{
+    text-decoration: underline;
 }

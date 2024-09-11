@@ -18,18 +18,19 @@ color: whitesmoke; transform: translate(5px,20px);">HERB</h1>
     <button routerLink="/auth/signup" class="bb"
         style="background-color: black; height: 50px; width: 100px;border-radius: 50px;border-width: 0ch;color: whitesmoke;">Get
         Started</button>
-    <button class="bb" routerLink="/auth/signin" style="background-color:rgb(17, 163, 17);border-width: 0ch; ">> Watch Video</button> </div>
+    <button class="bb" routerLink="/auth/signin" style="background: none; border: 0ch;">> Watch Video</button> </div>
 
     <div class="ee">
     <a href="#home" class="ZZ">Home</a>
     <a href="#about" class="ZZ">About</a>
     <a href="#services" class="ZZ">Services</a>
     <a href="#team" class="ZZ">Team</a>
-    <a href="#pricing" class="ZZ">Pricing</a>
+    <a routerLink="home/dashboard" href="#pricing" class="ZZ">Pricing</a>
     <a href="#dropdown" class="ZZ">Dropdown</a>
     <a href="#contact" class="ZZ">Contact</a>
 
 </div>
+
 <div style="transform: translate(300px,-300px);">
     
 </div>
@@ -131,7 +132,7 @@ color: whitesmoke; transform: translate(5px,20px);">HERB</h1>
 <body>
     <div class="cover">
     <div class="box ">
-        <div style="background-image: url('../../assets/images/h1.png');background-repeat: no-repeat;background-size: cover;height: 400px;">
+        <div class="backgroun">
     
         <h4 class="xyz"><b>Custom Herbal Formulations</b></h4>
         <p class="aaa">Experience the benefits of personalized herbal remedies with our custom formulation service. We create bespoke herbal blends based on your individual health profile and wellness goals.<br><br>
@@ -140,20 +141,20 @@ color: whitesmoke; transform: translate(5px,20px);">HERB</h1>
     </div></div>
 
     <div class="box">
-        <div style="background-image: url('../../assets/images/consulaa.png.png');background-repeat: no-repeat;background-size: cover;height: 400px;">
-        <h4 class="xyz"><b>Herbal Consulations</b></h4>
+          <div class="background"> 
+        <h4 class="xyz"><b>Herbal Consultations</b></h4>
         <p class="aaa">Our certified herbalists offer personalized consultations to help you address your unique health concerns. Whether you’re looking to manage stress, improve digestion, or boost your energy levels, our expert team will craft a tailored herbal regimen to meet your needs. <br><br><b>Initial Consultation:</b> A comprehensive assessment to understand your health history, goals, and preferences.</p>
     </div>
     </div>
     <div class="box">
-        <div style="background-image: url('../../assets/images/well1.png');background-repeat: no-repeat;background-size: cover;height: 400px;">
+        <div class="back">
         <h4 class="xyz"><b>Wellness Workshops and Classes</b></h4>
         <p class="aaa">Join our workshops and classes to deepen your understanding of herbal medicine and holistic health practices. Our sessions cover a range of topics, from basic herbal remedies to advanced wellness techniques.
  <br><br><b>Herbal Medicine Basics: </b>Learn the fundamentals of herbal medicine and how to incorporate herbs into your daily routine.</p>
 </div>
     </div>
     <div class="box">
-        <div style="background-image: url('../../assets/images/produ.png');background-repeat: no-repeat;background-size: cover;height: 400px;">
+        <div class="backgro">
         <h4 class="xyz"><b>Herbal Product Line</b></h4>
         <p class="aaa"><b>Tinctures and Extracts:</b> Concentrated herbal solutions for targeted health benefits.<br><br>
            <b>Herbal Teas:</b> Delicious and soothing blends crafted to support relaxation and wellness.<br><br>
@@ -167,11 +168,13 @@ color: whitesmoke; transform: translate(5px,20px);">HERB</h1>
 </div>
 
 <div>
+    <div id="team" >
+        <div #teamSection>
     <h1 style="text-decoration:underline; text-align: center;transform: translate(0px,-300px);"><b style="color: green;">Our Team</b></h1>
     <div class="container">
-        <div class="row">
+        <div class="row - 9">
             <div class="col">
-                <img src="../../assets/images/" style="height: 200px;width: 200px; border-radius: 100px;border-color: black; border-style:solid;border-width: 5px;">
+                <img src="../../assets/images/sus.png" style="height: 200px;width: 200px; border-radius: 100px;border-color: black; border-style:solid;border-width: 5px;">
                 <h5 style="padding-left: 40px;">SUSMITHA M</h5>
                 <P style="padding-left: 55px;">Team Leader</P>
             </div>
@@ -181,97 +184,136 @@ color: whitesmoke; transform: translate(5px,20px);">HERB</h1>
                 <P style="padding-left: 50px;">Team Member</P>
             </div>
             <div class="col">
-                <img src="../../assets/images/.png" style="height: 200px;width: 200px; border-radius: 100px;border-color: black; border-style:solid;border-width: 5px;">
+                <img src="../../assets/images/swe.png" style="height: 200px;width: 200px; border-radius: 100px;border-color: black; border-style:solid;border-width: 5px;">
                 <h5 style="padding-left: 45px;">SWETHA S M</h5>
                 <P style="padding-left: 55px;">Team Member</P>
             </div>
             <div class="col">
-                <img src="../../assets/images/.png" style="height: 200px;width: 200px; border-radius: 100px;border-color: black; border-style:solid;border-width: 5px;">
+                <img src="../../assets/images/san.png" style="height: 200px;width: 200px; border-radius: 100px;border-color: black; border-style:solid;border-width: 5px;">
                 <h5 style="padding-left: 45px;">SANMITHA K</h5>
                 <P style="padding-left: 55px;">Team Member</P>
             </div>
             <div class="col">
-                <img src="../../assets/images/.png" style="height: 200px;width: 200px; border-radius: 100px;border-color: black; border-style:solid;border-width: 5px;">
+                <img src="../../assets/images/kalai.png" style="height: 200px;width: 200px; border-radius: 100px;border-color: black; border-style:solid;border-width: 5px;">
                 <h5 style="padding-left: 35px;">KALAI SELVAN P</h5>
                 <P style="padding-left: 50px;">Team Member</P>
             </div>
         </div>
     </div>
+</div></div>
+
+<div style="transform: translate(0px,-100px);">
+    <div class="slider">
+    <div class="slide-track">
+        <div class="slide">
+            <img src="../../assets/images/cloves.png" alt="">
+        </div>
+        <div class="slide">
+            <img src="../../assets/images/nelli.png" alt="">
+        </div>
+        <div class="slide">
+            <img src="../../assets/images/aloe.png" alt="">
+        </div>
+        <div class="slide">
+            <img src="../../assets/images/ashwa.png" alt="">
+        </div>
+        <div class="slide">
+            <img src="../../assets/images/rosemary.png" alt="">
+        </div>
+        <div class="slide">
+            <img src="../../assets/images/tulsii.jpg" alt="">
+        </div>
+        <div class="slide">
+            <img src="../../assets/images/tur.png" alt="">
+        </div>
+        <div class="slide">
+            <img src="../../assets/images/gotukola.png" alt="">
+        </div>
+        <div class="slide">
+            <img src="../../assets/images/calendula.png" alt="">
+        </div>
+        <div class="slide">
+            <img src="../../assets/images/cloves.png" alt="">
+        </div>
+        <div class="slide">
+            <img src="../../assets/images/nelli.png" alt="">
+        </div>
+        <div class="slide">
+            <img src="../../assets/images/aloe.png" alt="">
+        </div>
+        <div class="slide">
+            <img src="../../assets/images/ashwa.png" alt=""> 
+        </div>
+        <div class="slide">
+            <img src="../../assets/images/rosemary.png" alt="">
+        </div>
+        <div class="slide">
+            <img src="../../assets/images/tulsii.jpg" alt="">
+        </div>
+        <div class="slide">
+            <img src="../../assets/images/tur.png" alt="">
+        </div>
+        <div class="slide">
+            <img src="../../assets/images/gotukola.png" alt="">
+        </div>
+        <div class="slide">
+            <img src="../../assets/images/calendula.png" alt="">
+        </div>
+        
+    </div>
+</div>
+
 </div>
 
 
+<div style="background-color: green; height: 100px;"></div>
+    <h1 style=" font-size: 40PX;
 
+font-weight: bolder;
+color: whitesmoke; transform: translate(5px,-150%);">HERB</h1>
+    <h1 style="font-size: 40px; padding-inline: 6pc; transform: translate(15px,-128PX);font-weight: bold;">ALI</h1>
+    <h1 style="transform: translate(165px,-225px);font-style: italic;font-size: 100px;">X</h1>
 
+<div id="contact" >
+    <div #contactSection>
+<div class="container" >
+<div class="row">
+<div class="col-4">
+        <h2 class="swe">HERBALIX</h2>
+        A108 Adam Street <br>
+        Chennai, CH 535022<br><br>
+       <b>Phone:</b> +91 8808812065<br>
+<b>Email:</b> herbalix.com
+</div>
+<div class="col-4">
+   <h2 class="swe">Useful links</h2> 
+   <ul>
+    <li> Home </li>
+    <li> About Us </li>
+    <li> Services </li>
+    <li> Team </li>
+    <li> Pricing </li>
+</ul>
+</div>
+<div class="col-4">
+    <h2 class="swe">Our Services</h2>
+    <ul>
+        <li> Custom Herbal Formulations </li>
+        <li> Herbal Consultations </li>
+        <li> Wellness Workshops and Classes </li>
+        <li> Herbal Product Line </li>
 
+    </ul>
+    
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
 
-
-
-
-
-
-
-    <!-- <div class="slider">
-    <div class="slide-track">
-        <div class="slide">
-            <h5>Neem</h5>
-        </div>
-        <div class="slide">
-            <h5>Neem</h5>
-        </div>
-        <div class="slide">
-            <h5>Neem</h5>
-        </div>
-        <div class="slide">
-            <h5>Neem</h5>
-        </div>
-        <div class="slide">
-            <h5>Neem</h5>
-        </div>
-        <div class="slide">
-            <h5>Neem</h5>
-        </div>
-        <div class="slide">
-            <h5>Neem</h5>
-        </div>
-        <div class="slide">
-            <h5>Neem</h5>
-        </div>
-        <div class="slide">
-            <h5>Neem</h5>
-        </div>
-        <div class="slide">
-            <h5>Neem</h5>
-        </div>
-        <div class="slide">
-            <h5>Neem</h5>
-        </div>
-        <div class="slide">
-            <h5>Neem</h5>
-        </div>
-        <div class="slide">
-            <h5>Neem</h5>
-        </div>
-        <div class="slide">
-            <h5>Neem</h5>
-        </div>
-        <div class="slide">
-            <h5>Neem</h5>
-        </div>
-        <div class="slide">
-            <h5>Neem</h5>
-        </div>
-        <div class="slide">
-            <h5>Neem</h5>
-        </div>
-        <div class="slide">
-            <h5>Neem</h5>
-        </div>
-        <div class="slide">
-            <h5>Neem</h5>
-        </div>
-        <div class="slide">
-            <h5>Neem</h5>
-        </div>
-    </div>
-</div> -->
-
+<div style="text-align: center;">
+(c) Copyright <b>Herbalix</b> All Rights Reserved
+<br>
+Designed by <b style="color:skyblue;" >BootstrapMade </b>
+</div>
