@@ -81,21 +81,20 @@
     outline: none;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
   }
-<<<<<<< HEAD
-=======
+
+
   div.adc img{
     height: 600px;
     width: 400px;
   }
->>>>>>> 637a6fc065a7b921a59dbb718d03f0c8272ed4a8
+
   .col-6{
     border-style: solid;
     border-width: 3px;
     border-color: black;
     padding: 20px;
-<<<<<<< HEAD
   }
-
-=======
-  }
->>>>>>> 637a6fc065a7b921a59dbb718d03f0c8272ed4a8
+.row{
+  margin: 10px;
+  transform: translate(100px,0%);
+}
