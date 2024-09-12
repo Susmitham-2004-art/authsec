@@ -206,12 +206,17 @@ h3{
     text-decoration: underline;
   }
    .ee{
-    transform: translate(800px,-438px); 
-  
+    transform: translate(600px,-550px); 
+   }
+   a:hover{
+
+    color:white;
    }
    .ZZ{
       margin: 15px;
     color: black;
+    font-weight: bold;
+    font-size:20px;
    }
    .navigation a:hover {
     text-decoration: underline; /* Underline on hover for better UX */
@@ -310,4 +315,14 @@ h5{
 } 
 .swe{
     text-decoration: underline;
+}
+.bb {
+    background-color: green; /* Default color */
+    color: white; /* Default text color */
+    transition: background-color 0.3s, color 0.3s; /* Smooth transition */
+}
+
+.bb:hover {
+    background-color: black; /* Color when hovered */
+    color: white; /* Text color when hovered */
 }
