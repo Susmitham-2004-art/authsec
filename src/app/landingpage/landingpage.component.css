@@ -43,6 +43,9 @@
     margin: 15px;
     color: whitesmoke;
     transform: translate(140px, 0px);
+    border-radius: 30px;
+    height: 40px;
+    border-style: solid;
 }
 .slider{
     height: 250px;
@@ -207,6 +210,7 @@ h3{
   }
    .ee{
     transform: translate(600px,-550px); 
+    
    }
    a:hover{
 
@@ -219,7 +223,8 @@ h3{
     font-size:20px;
    }
    .navigation a:hover {
-    text-decoration: underline; /* Underline on hover for better UX */
+    text-decoration: underline;
+
   }
   html {
     scroll-behavior: smooth;
@@ -315,6 +320,7 @@ h5{
 } 
 .swe{
     text-decoration: underline;
+    padding-left: 100px;
 }
 .bb {
     background-color: green; /* Default color */
@@ -326,3 +332,10 @@ h5{
     background-color: black; /* Color when hovered */
     color: white; /* Text color when hovered */
 }
+.basha{
+    color: white;
+}
+a:hover{
+
+    color:black;
+   }

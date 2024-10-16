@@ -103,3 +103,19 @@ a{
   transform: translate(200px,0px);
 }
 
+.con{
+  transform: translate(-7%,0px);
+}
+
+.bb {
+  transition: background-color 0.3s, color 0.3s; 
+  background-color: green;
+  border-width: 5px;
+  border-radius: 10px;
+  border-style: solid;
+}
+
+.bb:hover {
+  background-color: black;
+  color: white;
+}
