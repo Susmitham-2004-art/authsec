@@ -333,9 +333,9 @@ h5{
     color: white; /* Text color when hovered */
 }
 .basha{
-    color: white;
+    color:black;
 }
 a:hover{
 
-    color:black;
+    color:white;
    }
